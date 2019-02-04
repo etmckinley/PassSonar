@@ -119,7 +119,7 @@ if (team.formation==442){
   back.line=20
   mid.line=48
   forward.line=77
-  p=createPitch(grass_colour = background_color, line_colour = text.color)+coord_flip(ylim=c(0,80))+
+  p=createPitch(grass_colour = background_color,goal_colour=text_colour, line_colour = text.color)+coord_flip(ylim=c(0,80))+
     theme(aspect.ratio = 120/80, plot.title = element_text(size=18, hjust=0.5, vjust=-2, color=text.color),
           plot.background = element_rect(fill = background_color,colour = NA),
           panel.background = element_rect(fill = background_color,colour = NA))+
