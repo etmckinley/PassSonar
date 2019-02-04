@@ -1,6 +1,6 @@
 #Based on the createPitch function written by FC_Rstats https://github.com/FCrSTATS
 #Modified by Eliot McKinley (etmckinley@gmail.com) to use yards as the unit of measurement,
-#enable plotting of a half pitch, and midifications to allow faceting
+#enable plotting of a half pitch, and modifications to allow faceting
 
 createPitch <- function(xmax=115, ymax=80, grass_colour="white", line_colour="gray", background_colour="white", goal_colour="gray", data=NULL, halfPitch=FALSE){
   
