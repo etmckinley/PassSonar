@@ -69,7 +69,7 @@ text_color="black"
 background_color="white"
 radar.size=27
 ymax=80
-xmax-120
+xmax=120
 
 team.select="North Carolina Courage"
 match.select=7444
